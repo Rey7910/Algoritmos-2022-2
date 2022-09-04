@@ -1,7 +1,7 @@
 Búsqueda con fuerza bruta
 =========================
 
-Utilizando fuerza bruta, se diseña un algorítmo con el objetivo de
+Utilizando fuerza bruta, se diseña un algoritmo con el objetivo de
 encontrar un segmento problema (ACATTACA) en el genoma del Covid 19.
 
 **Objetivos:** - Buscar el segmento "problema" en el "target" - imprimir
