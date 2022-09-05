@@ -65,5 +65,7 @@ programa completo $$ {O_n + O_1 + O_1 +O_1 +O_1 +O_n[O_1]  = }$$
 $$ {O_n + O_1 + O_1 +O_1+O_1  + O_n = }$$ $$ {O_n  }$$
 
 Conclusiones
+------------
+
 Después de realizar el algoritmo por fuerza bruta podemos observar que este tiene una complejidad de O(n) siendo n la cantidad de caracteres en el string dado como input, a diferencia del método find, el cual tiene una complejidad de O(n/m), siendo n el largo del string dado como input y m el largo del substring a buscar. 
 Con este último lograríamos que el programa se ejecute en menos tiempo.
