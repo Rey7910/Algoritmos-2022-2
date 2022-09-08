@@ -17,12 +17,12 @@ Luego, la única operación que se realiza es reducir el intervalo dado, entonce
 
 Entonces, se puede desarrollar de la siguiente forma
 
-![\Small \delta\le\frac{b-a}{2^k}](https://latex.codecogs.com/svg.latex?\Large&space;\delta\le\frac{b-a}{2^k}) 
+![\Small \delta\le\frac{b-a}{2^k}](https://latex.codecogs.com/svg.latex?\Large&space;\delta<\frac{b-a}{2^k}) 
 
-![\Small \delta\le\frac{b-a}{2^k}](https://latex.codecogs.com/svg.latex?\Large&space;2^k\le\frac{b-a}{\delta})
+![\Small \delta\le\frac{b-a}{2^k}](https://latex.codecogs.com/svg.latex?\Large&space;2^k<\frac{b-a}{\delta})
 
 
-![\Small \delta\le\frac{b-a}{2^k}](https://latex.codecogs.com/svg.latex?\Large&space;k\le\log_2\frac{b-a}{\delta})
+![\Small \delta\le\frac{b-a}{2^k}](https://latex.codecogs.com/svg.latex?\Large&space;k<\log_2\frac{b-a}{\delta})
 
 
 De esta forma, se demuestra que k está acotado por arriba por los parametros de la función y que esta tiene complejidad logarítmica en relación con el intervalo y el inverso de la tolerancia. 
